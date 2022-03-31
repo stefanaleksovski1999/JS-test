@@ -7,7 +7,7 @@ const University = require('../models/university');
 const getAll = async (req, res) => {
 
  
-
+    console.log()
    
     const faculty = await Faculty.find().populate('university', 'name');
 
